@@ -25,7 +25,7 @@ fi
 DATE=$(date +"%m.%d.%y")
 
 # Define the file where the counter will be stored
-COUNTER_FILE="/opt/dockerpush/counters/build_counter_${DOCKER_IMAGE_NAME}_${DATE}.txt"
+COUNTER_FILE="/opt/dcp/counters/build_counter_${DOCKER_IMAGE_NAME}_${DATE}.txt"
 
 # Check if the counter file exists, if not, create it and set the counter to 0
 if [ ! -f "$COUNTER_FILE" ]; then
