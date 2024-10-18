@@ -12,15 +12,15 @@ You can run the script in three different modes:
 
 1. **No arguments**: The script will use the directory name as both the local image name and Docker image name.
 ```bash
-./build_and_push_docker_image.sh
+dcp
 ```
 2. **One argument**: The script will use the parent directory name for the local image name, but allow you to specify a custom Docker image name using the first command-line argument.
 ```bash
-./build_and_push_docker_image.sh <DOCKER_IMAGE_NAME>
+dcp <DOCKER_IMAGE_NAME>
 ```
 3. **Two arguments**: You can specify both the local image name and the Docker image name as separate command-line arguments.
 ```bash
-./build_and_push_docker_image.sh <IMAGE_NAME> <DOCKER_IMAGE_NAME>
+dcp <LOCAL_IMAGE_NAME> <DOCKER_IMAGE_NAME>
 ```
 
 **Example Output**
